@@ -1,5 +1,5 @@
 #!/bin/bash
-printf "\nThis script will install systemd-boot to /boot. Would you like to continue (Y/N)?:"
+printf "\nThis script will install systemd-boot to /boot and set up bootloader entries. Would you like to continue (Y/N)?:"
 read USER_CONSENT
 
 if [ "${USER_CONSENT,,}" = "y" ]; then
